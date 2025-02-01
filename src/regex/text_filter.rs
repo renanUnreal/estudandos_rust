@@ -1,4 +1,4 @@
-pub fn filtro(texto: &str) -> String {
+pub fn filter(texto: &str) -> String {
     // Lista inicial com algumas palavras ofensivas reais
     let palavras_ofensivas: Vec<(&str, &str)> = vec![
         ("caralho", "*******"),
